@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        // Module de module à générer (CommonJS, UMD, ES6, etc.)
+        "module": "commonjs",
+        // Dossier de sortie pour les fichiers transpilés
+        "outDir": "../dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,// enables derivated annotation classes
+        "esModuleInterop": true
+    }
+}
